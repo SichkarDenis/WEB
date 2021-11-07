@@ -1,0 +1,40 @@
+body {
+  background-color: silver;
+  color: green;
+}
+hr {
+  border-top-style: dotted;
+  border-top-color: yellow;
+  border-bottom-style: double;
+  border-bottom-color: purple;
+  border-left-style: none;
+  border-right-style: none;
+  border-width: 7px;
+  width: 20%;
+}
+h3 {
+color: orange;
+height: 50px;
+font-style: italic;
+}
+h1 { color: #ffffffff; }
+a {
+  font-family: cursive;
+  color: red;
+}
+p strong {
+  color: blue;
+  font-variant: small-caps;
+}
+.lavenderbg { background-color: lavender; }
+.tablepars {
+  background-color: white;
+  width: 100%;
+}
+.beigebg {
+  background-color: beige;
+  border-color: brown;
+}
+#halfwidth { width: 50%; }
+#underover { text-decoration: underline overline dashed; }
+a:hover { background-color: purple; }
