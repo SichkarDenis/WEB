@@ -4,18 +4,17 @@
     <link rel="shortcut icon" href="eyes.png">
     <meta charset="utf-8">
     <title>Моя сторінка</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>Персональна сторінка Січкаря Дениса Сергійовича</h1>
-    <hr color="brown" size="5px">
-    <table cellspacing="5" border="2" width="100%">
+    <hr>
+    <table cellspacing="5" border="2" class="tablepars">
       <tr>
         <td><img src="me&chain.jpg" alt="My photo"></td>
-        <!-- Це відступ між комірками -->
-        <br><br><br>
         <td>
           <h3>👋Привіт, мене звати Денис.</h3>
-          <h4><u>Хто я та Звідки:</u></h4>
+          <h4 id="underover">Хто я та Звідки:</h4>
           <p>Я народився у місті <strong>Конотоп</strong>, Сумської області.
           Закінчив навчання у
           <a href="https://school9.osvita-konotop.gov.ua/">Конотопській СШ №9</a>
@@ -24,8 +23,6 @@
           Університету</strong> (<a href="https://nau.edu.ua/">НАУ</a>),
           групи <strong><a href="BIKS.jpg">БІ-241</a></strong><br>
           Навчаюся за спеціальністю "<i><u>Кібербезпека</u></i>"</p>
-          <!-- Це відступ всередині комірки -->
-          <br><br><br><br><br>
         </td>
       </tr>
       <tr>
@@ -50,16 +47,16 @@
         </td>
       </tr>
       <tr>
-        <table cellspacing="5" border="2" width="100%">
-          <tr>
+        <table cellspacing="5" border="2" class="tablepars">
+          <tr class="lavenderbg">
             <td><a href="Recommendations.html">👍 Мої рекомендації</a></td>
             <td><a href="Contacts.html">✍ Мої контактні дані</a></td>
           </tr>
         </table>
       </tr>
     </table>
-    <hr color="brown" size="3px">
-    <table cellspacing="5" border="4" bordercolor="brown" bgcolor="#EADEB8">
+    <hr>
+    <table cellspacing="5" border="4" class="beigebg" class="tablepars" id="halfwidth">
       <strong>Rating of my Skills:</strong>
       <tr>
         <td>HTML:</td>
