@@ -1,8 +1,8 @@
 body {
-  background-color: silver;
-  color: green;
+  margin: 0;
 }
 hr {
+  background-color: #BEAEE2;
   border-top-style: dotted;
   border-top-color: yellow;
   border-bottom-style: double;
@@ -10,14 +10,17 @@ hr {
   border-left-style: none;
   border-right-style: none;
   border-width: 7px;
-  width: 20%;
+  margin: 0;
 }
-h3 {
+h2 {
 color: orange;
 height: 50px;
 font-style: italic;
 }
-h1 { color: #ffffffff; }
+h1 {
+  color: #ffffffff;
+  margin: 0;
+}
 a {
   font-family: cursive;
   color: red;
@@ -26,15 +29,45 @@ p strong {
   color: blue;
   font-variant: small-caps;
 }
-.lavenderbg { background-color: lavender; }
-.tablepars {
-  background-color: white;
-  width: 100%;
+#underover { text-decoration: underline overline dashed; }
+a:hover { background-color: purple; }
+header {
+  background-color: gray;
+  text-align: center;
 }
-.beigebg {
+section {
+  background-color: #F2DDC1;
+  padding: 5px 0 5px 0;
+}
+p {
+  margin: 10px 0 0 10px;
+}
+div {
+  background-color: snow;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 5px dashed black;
+  border-radius: 10px;
+}
+.fixed1 {
+  position: fixed;
+  top: 50%;
+  right: 0;
+}
+.fixed2 {
+  position: fixed;
+  top: 60%;
+  right: 0;
+}
+table {
+  width: 50%;
   background-color: beige;
   border-color: brown;
 }
-#halfwidth { width: 50%; }
-#underover { text-decoration: underline overline dashed; }
-a:hover { background-color: purple; }
+
+footer {
+  background-color: #D5BFBF;
+  height: 300px;
+  padding: 10px;
+}
