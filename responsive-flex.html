@@ -1,0 +1,157 @@
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flex box</title>
+  <style media="screen">
+    body {
+      margin: 0;
+    }
+
+    nav {
+      height: 75px;
+      background-color: royalblue;
+      color: yellow;
+      padding-left: 10px;
+      font-size: 40px;
+    }
+
+    header {
+      height: 400px;
+      background-color: lightskyblue;
+      background-image: url("ukraine-map.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    section {
+      height: 500px;
+      background-color: gray;
+      margin: 75px 100px 75px 100px;
+    }
+
+    div {
+      height: 40px;
+      background-color: silver;
+      text-align: center;
+    }
+
+    footer {
+      height: 100px;
+      background-color: black;
+      text-align: center;
+      padding-top: 50px;
+      color: gray;
+    }
+
+    p {
+      height: 200px;
+      background-color: khaki;
+      margin-bottom: 75px;
+      text-align: center;
+      color: blue;
+      font-size: 150%;
+    }
+
+    #flex-container {
+      display: flex;
+      justify-content: space-between;
+      background-color: gray;
+    }
+
+    .flex-item {
+      height: 200px;
+      width: 48%;
+      background-color: tomato;
+    }
+
+    h2 {
+      color: yellow;
+      padding: 20px;
+      margin: 0;
+    }
+
+    .right {
+      float: right;
+    }
+
+    h3 {
+      text-align: center;
+      color: white;
+    }
+
+    .button {
+      color: yellow;
+      text-decoration: overline underline;
+      text-decoration-style: double;
+      background-color: lightskyblue;
+    }
+
+    @media (max-width: 900px) {
+section {
+height: auto;
+}
+
+p {
+height: auto;
+}
+
+div {
+height: auto;
+}
+
+.flex-item {
+height: auto;
+}
+
+.flex-item img {
+width: 100%
+}
+}
+  </style>
+</head>
+
+<body>
+  <nav>
+    UKRAINE
+    <a class="right" href="https://en.wikipedia.org/wiki/Ukraine"><img src="wiki.ico" alt="wikipedia"></a>
+  </nav>
+  <header>
+    <center>
+      <h2>What is Ukraine?</h2>
+      <h3>Ukraine is a country in Eastern Europe. It is the second-largest country by area in Europe after Russia, which it borders to the east and north-east.<br>
+        Ukraine also shares borders with Belarus, Poland, Slovakia, Hungary, Romania and Moldova; and has a coastline along the Sea of Azov and the Black Sea.<br>
+        It spans an area of 603,628 km2, with a population of 41.3 million, and is the eighth-most populous country in Europe.<br>
+        The nation's capital and largest city is Kyiv.</h3>
+      <a class="button" href="https://www.imbf.org/karty/images/karta-ukrainy-po-oblastjam-hq.jpg">OPEN DETAILED MAP</a>
+    </center>
+  </header>
+  <section>
+    <p>
+      National symbols<br>
+      The national symbols of Ukraine include a diversity of official and unofficial images and other symbols, used in Ukraine to represent what is unique about the nation,<br>
+      reflecting different aspects of its culture and history.<br>
+      Here are the 2 most important: the flag and the coat of arms.</h4>
+    </p>
+    <div id="flex-container">
+      <div class="flex-item">
+        Flag of Ukraine:<br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/270px-Flag_of_Ukraine.svg.png" alt="Flag of Ukraine">
+      </div>
+      <div class="flex-item">
+        Coat of arms of Ukraine:<br>
+        <img width="24%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Lesser_Coat_of_Arms_of_Ukraine.svg/225px-Lesser_Coat_of_Arms_of_Ukraine.svg.png" alt="Coat of Arms of Ukraine">
+      </div>
+    </div>
+  </section>
+  <div>
+    <a href="https://www.instagram.com/ukraine.ua/">WANT TO SEE MORE ABOUT UKRAINE?</a>
+  </div>
+  <footer>
+    2021 Europe, Ukraine, Kyiv. All Rights Reserved. Site by Sichkar Denis
+  </footer>
+</body>
+
+</html>
