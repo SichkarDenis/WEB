@@ -1,6 +1,7 @@
 body {
   margin: 0;
 }
+
 hr {
   background-color: #BEAEE2;
   border-top-style: dotted;
@@ -12,36 +13,50 @@ hr {
   border-width: 7px;
   margin: 0;
 }
+
 h2 {
-color: orange;
-height: 50px;
-font-style: italic;
+  color: orange;
+  height: 50px;
+  font-style: italic;
 }
+
 h1 {
   color: #ffffffff;
   margin: 0;
 }
+
 a {
   font-family: cursive;
   color: red;
 }
+
 p strong {
   color: blue;
   font-variant: small-caps;
 }
-#underover { text-decoration: underline overline dashed; }
-a:hover { background-color: purple; }
+
+#underover {
+  text-decoration: underline overline dashed;
+}
+
+a:hover {
+  background-color: purple;
+}
+
 header {
   background-color: gray;
   text-align: center;
 }
+
 section {
   background-color: #F2DDC1;
   padding: 5px 0 5px 0;
 }
+
 p {
   margin: 10px 0 0 10px;
 }
+
 div {
   background-color: snow;
   display: inline-block;
@@ -50,16 +65,19 @@ div {
   border: 5px dashed black;
   border-radius: 10px;
 }
+
 .fixed1 {
   position: fixed;
   top: 50%;
   right: 0;
 }
+
 .fixed2 {
   position: fixed;
   top: 60%;
   right: 0;
 }
+
 table {
   width: 50%;
   background-color: beige;
